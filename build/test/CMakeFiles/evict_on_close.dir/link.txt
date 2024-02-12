@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/evict_on_close.dir/evict_on_close.c.o -o ../bin/evict_on_close  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../bin/libhdf5_test.so.1000.0.0 -lm ../bin/libhdf5.so.1000.0.0 -ldl 

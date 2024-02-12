@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/testh5repack_detect_szip.dir/testh5repack_detect_szip.c.o -o ../../../bin/testh5repack_detect_szip  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../../bin/libhdf5_tools.a ../../../bin/libhdf5.a ../../../bin/libhdf5_test.a ../../../bin/libhdf5.a -lm -ldl 

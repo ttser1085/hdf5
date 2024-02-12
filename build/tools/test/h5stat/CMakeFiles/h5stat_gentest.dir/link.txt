@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/h5stat_gentest.dir/h5stat_gentest.c.o -o ../../../bin/h5stat_gentest  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../../bin/libhdf5.a -lm -ldl 

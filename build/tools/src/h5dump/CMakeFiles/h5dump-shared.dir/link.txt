@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/h5dump-shared.dir/h5dump.c.o CMakeFiles/h5dump-shared.dir/h5dump_ddl.c.o CMakeFiles/h5dump-shared.dir/h5dump_xml.c.o -o ../../../bin/h5dump-shared  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../../bin/libhdf5_tools.so.1000.0.0 ../../../bin/libhdf5.so.1000.0.0 -ldl 

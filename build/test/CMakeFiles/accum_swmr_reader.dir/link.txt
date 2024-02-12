@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/accum_swmr_reader.dir/accum_swmr_reader.c.o -o ../bin/accum_swmr_reader  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../bin/libhdf5_test.so.1000.0.0 ../bin/libhdf5.so.1000.0.0 -lm -ldl 

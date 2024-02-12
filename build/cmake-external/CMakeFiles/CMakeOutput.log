@@ -1,0 +1,2336 @@
+The system is: Linux - 6.5.0-17-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72911/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72911.dir/build.make CMakeFiles/cmTC_72911.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_72911.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_72911.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYnjqCp.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_72911.dir/'
+ as -v --64 -o CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o /tmp/ccYnjqCp.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_72911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72911.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o -o cmTC_72911 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72911' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_72911.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceB3RGa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_72911 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72911' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_72911.'
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72911/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72911.dir/build.make CMakeFiles/cmTC_72911.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_72911.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_72911.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYnjqCp.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_72911.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o /tmp/ccYnjqCp.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_72911]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72911.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o -o cmTC_72911 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72911' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_72911.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceB3RGa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_72911 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceB3RGa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_72911] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_72911.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41166/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41166.dir/build.make CMakeFiles/cmTC_41166.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41166.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41166.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccV51G06.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41166.dir/'
+ as -v --64 -o CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccV51G06.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_41166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41166.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41166 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_41166' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41166.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cccjhBsG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41166 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_41166' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41166.'
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41166/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41166.dir/build.make CMakeFiles/cmTC_41166.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41166.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41166.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccV51G06.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41166.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccV51G06.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_41166]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41166.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41166 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_41166' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41166.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cccjhBsG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41166 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccjhBsG.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_41166] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_41166.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files ;sys/file.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0d598/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d598.dir/build.make CMakeFiles/cmTC_0d598.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d598.dir/H5_HAVE_SYS_FILE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0d598.dir/H5_HAVE_SYS_FILE_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_FILE_H.c
+Linking C executable cmTC_0d598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d598.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0d598.dir/H5_HAVE_SYS_FILE_H.c.o -o cmTC_0d598 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69de3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69de3.dir/build.make CMakeFiles/cmTC_69de3.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69de3.dir/H5_HAVE_SYS_IOCTL_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_69de3.dir/H5_HAVE_SYS_IOCTL_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_IOCTL_H.c
+Linking C executable cmTC_69de3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69de3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_69de3.dir/H5_HAVE_SYS_IOCTL_H.c.o -o cmTC_69de3 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf851/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf851.dir/build.make CMakeFiles/cmTC_cf851.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf851.dir/H5_HAVE_SYS_RESOURCE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cf851.dir/H5_HAVE_SYS_RESOURCE_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_RESOURCE_H.c
+Linking C executable cmTC_cf851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf851.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cf851.dir/H5_HAVE_SYS_RESOURCE_H.c.o -o cmTC_cf851 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a7d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a7d4.dir/build.make CMakeFiles/cmTC_2a7d4.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a7d4.dir/H5_HAVE_SYS_SOCKET_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2a7d4.dir/H5_HAVE_SYS_SOCKET_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_SOCKET_H.c
+Linking C executable cmTC_2a7d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a7d4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2a7d4.dir/H5_HAVE_SYS_SOCKET_H.c.o -o cmTC_2a7d4 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07168/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07168.dir/build.make CMakeFiles/cmTC_07168.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07168.dir/H5_HAVE_SYS_STAT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_07168.dir/H5_HAVE_SYS_STAT_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_STAT_H.c
+Linking C executable cmTC_07168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07168.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_07168.dir/H5_HAVE_SYS_STAT_H.c.o -o cmTC_07168 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_239d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_239d8.dir/build.make CMakeFiles/cmTC_239d8.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_239d8.dir/H5_HAVE_SYS_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_239d8.dir/H5_HAVE_SYS_TIME_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_TIME_H.c
+Linking C executable cmTC_239d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_239d8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_239d8.dir/H5_HAVE_SYS_TIME_H.c.o -o cmTC_239d8 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_500c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_500c2.dir/build.make CMakeFiles/cmTC_500c2.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_500c2.dir/H5_HAVE_SYS_TYPES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_500c2.dir/H5_HAVE_SYS_TYPES_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_500c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500c2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_500c2.dir/H5_HAVE_SYS_TYPES_H.c.o -o cmTC_500c2 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dad53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dad53.dir/build.make CMakeFiles/cmTC_dad53.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dad53.dir/H5_HAVE_FEATURES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dad53.dir/H5_HAVE_FEATURES_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_FEATURES_H.c
+Linking C executable cmTC_dad53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dad53.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dad53.dir/H5_HAVE_FEATURES_H.c.o -o cmTC_dad53 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c89f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c89f6.dir/build.make CMakeFiles/cmTC_c89f6.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c89f6.dir/H5_HAVE_DIRENT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c89f6.dir/H5_HAVE_DIRENT_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_DIRENT_H.c
+Linking C executable cmTC_c89f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c89f6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c89f6.dir/H5_HAVE_DIRENT_H.c.o -o cmTC_c89f6 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cba81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cba81.dir/build.make CMakeFiles/cmTC_cba81.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cba81.dir/H5_HAVE_UNISTD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cba81.dir/H5_HAVE_UNISTD_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_UNISTD_H.c
+Linking C executable cmTC_cba81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba81.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cba81.dir/H5_HAVE_UNISTD_H.c.o -o cmTC_cba81 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea7ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea7ba.dir/build.make CMakeFiles/cmTC_ea7ba.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea7ba.dir/H5_HAVE_PWD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ea7ba.dir/H5_HAVE_PWD_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_PWD_H.c
+Linking C executable cmTC_ea7ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7ba.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ea7ba.dir/H5_HAVE_PWD_H.c.o -o cmTC_ea7ba 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7ef2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7ef2.dir/build.make CMakeFiles/cmTC_e7ef2.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7ef2.dir/H5_HAVE_PTHREAD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e7ef2.dir/H5_HAVE_PTHREAD_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_PTHREAD_H.c
+Linking C executable cmTC_e7ef2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7ef2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e7ef2.dir/H5_HAVE_PTHREAD_H.c.o -o cmTC_e7ef2 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d851/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d851.dir/build.make CMakeFiles/cmTC_7d851.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d851.dir/H5_HAVE_DLFCN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d851.dir/H5_HAVE_DLFCN_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_DLFCN_H.c
+Linking C executable cmTC_7d851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d851.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7d851.dir/H5_HAVE_DLFCN_H.c.o -o cmTC_7d851 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h;netinet/in.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc52a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc52a.dir/build.make CMakeFiles/cmTC_cc52a.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc52a.dir/H5_HAVE_NETINET_IN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cc52a.dir/H5_HAVE_NETINET_IN_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_NETINET_IN_H.c
+Linking C executable cmTC_cc52a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc52a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cc52a.dir/H5_HAVE_NETINET_IN_H.c.o -o cmTC_cc52a 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h;netinet/in.h;netdb.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dac47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dac47.dir/build.make CMakeFiles/cmTC_dac47.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dac47.dir/H5_HAVE_NETDB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dac47.dir/H5_HAVE_NETDB_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_NETDB_H.c
+Linking C executable cmTC_dac47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac47.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dac47.dir/H5_HAVE_NETDB_H.c.o -o cmTC_dac47 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h;netinet/in.h;netdb.h;arpa/inet.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e6a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e6a2.dir/build.make CMakeFiles/cmTC_6e6a2.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e6a2.dir/H5_HAVE_ARPA_INET_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6e6a2.dir/H5_HAVE_ARPA_INET_H.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/H5_HAVE_ARPA_INET_H.c
+Linking C executable cmTC_6e6a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e6a2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6e6a2.dir/H5_HAVE_ARPA_INET_H.c.o -o cmTC_6e6a2 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files quadmath.h exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85153/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85153.dir/build.make CMakeFiles/cmTC_85153.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85153.dir/C_HAVE_QUADMATH.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_85153.dir/C_HAVE_QUADMATH.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckIncludeFiles/C_HAVE_QUADMATH.c
+Linking C executable cmTC_85153
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85153.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_85153.dir/C_HAVE_QUADMATH.c.o -o cmTC_85153 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ceil exists in the m; passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37513/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37513.dir/build.make CMakeFiles/cmTC_37513.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37513.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil -o CMakeFiles/cmTC_37513.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘ceil’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘ceil’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_37513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37513.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ceil CMakeFiles/cmTC_37513.dir/CheckFunctionExists.c.o -o cmTC_37513  -lm 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl;m passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da8b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da8b9.dir/build.make CMakeFiles/cmTC_da8b9.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da8b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_da8b9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da8b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da8b9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen CMakeFiles/cmTC_da8b9.dir/CheckFunctionExists.c.o -o cmTC_da8b9  -ldl -lm 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lseek64 exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23271/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23271.dir/build.make CMakeFiles/cmTC_23271.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23271.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=lseek64 -o CMakeFiles/cmTC_23271.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23271.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lseek64 CMakeFiles/cmTC_23271.dir/CheckFunctionExists.c.o -o cmTC_23271 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f47c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f47c9.dir/build.make CMakeFiles/cmTC_f47c9.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f47c9.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_f47c9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f47c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f47c9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_f47c9.dir/CheckFunctionExists.c.o -o cmTC_f47c9 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_STAT64_STRUCT succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3fe65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3fe65.dir/build.make CMakeFiles/cmTC_3fe65.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fe65.dir/src.c.o
+/usr/bin/cc -DHAVE_STAT64_STRUCT -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_3fe65.dir/src.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3fe65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fe65.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3fe65.dir/src.c.o -o cmTC_3fe65 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat64 *)0)->st_blocks);
+  return 0;
+}
+
+Determining if the function stat64 exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2685/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2685.dir/build.make CMakeFiles/cmTC_e2685.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2685.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=stat64 -o CMakeFiles/cmTC_e2685.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2685.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stat64 CMakeFiles/cmTC_e2685.dir/CheckFunctionExists.c.o -o cmTC_e2685 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a7ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a7ef.dir/build.make CMakeFiles/cmTC_0a7ef.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a7ef.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_0a7ef.dir/CheckIncludeFile.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0a7ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a7ef.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0a7ef.dir/CheckIncludeFile.c.o -o cmTC_0a7ef 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67073/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67073.dir/build.make CMakeFiles/cmTC_67073.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67073.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_67073.dir/CheckIncludeFile.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67073.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_67073.dir/CheckIncludeFile.c.o -o cmTC_67073 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2911/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2911.dir/build.make CMakeFiles/cmTC_e2911.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2911.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_e2911.dir/CheckIncludeFile.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e2911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2911.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e2911.dir/CheckIncludeFile.c.o -o cmTC_e2911 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2e83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2e83.dir/build.make CMakeFiles/cmTC_c2e83.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2e83.dir/H5_SIZEOF_CHAR.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_c2e83.dir/H5_SIZEOF_CHAR.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_CHAR.c
+Linking C executable cmTC_c2e83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2e83.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c2e83.dir/H5_SIZEOF_CHAR.c.o -o cmTC_c2e83 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc3ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc3ee.dir/build.make CMakeFiles/cmTC_bc3ee.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc3ee.dir/H5_SIZEOF_SHORT.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_bc3ee.dir/H5_SIZEOF_SHORT.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_SHORT.c
+Linking C executable cmTC_bc3ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc3ee.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bc3ee.dir/H5_SIZEOF_SHORT.c.o -o cmTC_bc3ee 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d241/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d241.dir/build.make CMakeFiles/cmTC_5d241.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d241.dir/H5_SIZEOF_INT.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_5d241.dir/H5_SIZEOF_INT.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT.c
+Linking C executable cmTC_5d241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d241.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5d241.dir/H5_SIZEOF_INT.c.o -o cmTC_5d241 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2007c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2007c.dir/build.make CMakeFiles/cmTC_2007c.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2007c.dir/H5_SIZEOF_UNSIGNED.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_2007c.dir/H5_SIZEOF_UNSIGNED.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UNSIGNED.c
+Linking C executable cmTC_2007c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2007c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2007c.dir/H5_SIZEOF_UNSIGNED.c.o -o cmTC_2007c 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a242/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a242.dir/build.make CMakeFiles/cmTC_8a242.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a242.dir/H5_SIZEOF_LONG.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_8a242.dir/H5_SIZEOF_LONG.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG.c
+Linking C executable cmTC_8a242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a242.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8a242.dir/H5_SIZEOF_LONG.c.o -o cmTC_8a242 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02392/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02392.dir/build.make CMakeFiles/cmTC_02392.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02392.dir/H5_SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_02392.dir/H5_SIZEOF_LONG_LONG.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_LONG.c
+Linking C executable cmTC_02392
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02392.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_02392.dir/H5_SIZEOF_LONG_LONG.c.o -o cmTC_02392 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dae7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dae7.dir/build.make CMakeFiles/cmTC_2dae7.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dae7.dir/H5_SIZEOF_FLOAT.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_2dae7.dir/H5_SIZEOF_FLOAT.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_FLOAT.c
+Linking C executable cmTC_2dae7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dae7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2dae7.dir/H5_SIZEOF_FLOAT.c.o -o cmTC_2dae7 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91793/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91793.dir/build.make CMakeFiles/cmTC_91793.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91793.dir/H5_SIZEOF_DOUBLE.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_91793.dir/H5_SIZEOF_DOUBLE.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_DOUBLE.c
+Linking C executable cmTC_91793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91793.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_91793.dir/H5_SIZEOF_DOUBLE.c.o -o cmTC_91793 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eed64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eed64.dir/build.make CMakeFiles/cmTC_eed64.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eed64.dir/H5_SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_eed64.dir/H5_SIZEOF_LONG_DOUBLE.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_eed64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed64.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_eed64.dir/H5_SIZEOF_LONG_DOUBLE.c.o -o cmTC_eed64 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1097/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1097.dir/build.make CMakeFiles/cmTC_a1097.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1097.dir/H5_SIZEOF_INT8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_a1097.dir/H5_SIZEOF_INT8_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT8_T.c
+Linking C executable cmTC_a1097
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1097.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a1097.dir/H5_SIZEOF_INT8_T.c.o -o cmTC_a1097 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_301d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_301d8.dir/build.make CMakeFiles/cmTC_301d8.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_301d8.dir/H5_SIZEOF_UINT8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_301d8.dir/H5_SIZEOF_UINT8_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT8_T.c
+Linking C executable cmTC_301d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_301d8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_301d8.dir/H5_SIZEOF_UINT8_T.c.o -o cmTC_301d8 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_least8_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef923/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef923.dir/build.make CMakeFiles/cmTC_ef923.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef923.dir/H5_SIZEOF_INT_LEAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_ef923.dir/H5_SIZEOF_INT_LEAST8_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST8_T.c
+Linking C executable cmTC_ef923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef923.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ef923.dir/H5_SIZEOF_INT_LEAST8_T.c.o -o cmTC_ef923 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_least8_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10e7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10e7b.dir/build.make CMakeFiles/cmTC_10e7b.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10e7b.dir/H5_SIZEOF_UINT_LEAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_10e7b.dir/H5_SIZEOF_UINT_LEAST8_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST8_T.c
+Linking C executable cmTC_10e7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10e7b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_10e7b.dir/H5_SIZEOF_UINT_LEAST8_T.c.o -o cmTC_10e7b 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_fast8_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5157/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5157.dir/build.make CMakeFiles/cmTC_e5157.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5157.dir/H5_SIZEOF_INT_FAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_e5157.dir/H5_SIZEOF_INT_FAST8_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST8_T.c
+Linking C executable cmTC_e5157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5157.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e5157.dir/H5_SIZEOF_INT_FAST8_T.c.o -o cmTC_e5157 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_fast8_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be08a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be08a.dir/build.make CMakeFiles/cmTC_be08a.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be08a.dir/H5_SIZEOF_UINT_FAST8_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_be08a.dir/H5_SIZEOF_UINT_FAST8_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST8_T.c
+Linking C executable cmTC_be08a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be08a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_be08a.dir/H5_SIZEOF_UINT_FAST8_T.c.o -o cmTC_be08a 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_995d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_995d0.dir/build.make CMakeFiles/cmTC_995d0.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_995d0.dir/H5_SIZEOF_INT16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_995d0.dir/H5_SIZEOF_INT16_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT16_T.c
+Linking C executable cmTC_995d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_995d0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_995d0.dir/H5_SIZEOF_INT16_T.c.o -o cmTC_995d0 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_40fe6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_40fe6.dir/build.make CMakeFiles/cmTC_40fe6.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40fe6.dir/H5_SIZEOF_UINT16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_40fe6.dir/H5_SIZEOF_UINT16_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT16_T.c
+Linking C executable cmTC_40fe6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40fe6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_40fe6.dir/H5_SIZEOF_UINT16_T.c.o -o cmTC_40fe6 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_least16_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0840e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0840e.dir/build.make CMakeFiles/cmTC_0840e.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0840e.dir/H5_SIZEOF_INT_LEAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_0840e.dir/H5_SIZEOF_INT_LEAST16_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST16_T.c
+Linking C executable cmTC_0840e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0840e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0840e.dir/H5_SIZEOF_INT_LEAST16_T.c.o -o cmTC_0840e 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_least16_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1649b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1649b.dir/build.make CMakeFiles/cmTC_1649b.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1649b.dir/H5_SIZEOF_UINT_LEAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_1649b.dir/H5_SIZEOF_UINT_LEAST16_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST16_T.c
+Linking C executable cmTC_1649b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1649b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1649b.dir/H5_SIZEOF_UINT_LEAST16_T.c.o -o cmTC_1649b 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_fast16_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_911d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_911d1.dir/build.make CMakeFiles/cmTC_911d1.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_911d1.dir/H5_SIZEOF_INT_FAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_911d1.dir/H5_SIZEOF_INT_FAST16_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST16_T.c
+Linking C executable cmTC_911d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_911d1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_911d1.dir/H5_SIZEOF_INT_FAST16_T.c.o -o cmTC_911d1 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_fast16_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38bfb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38bfb.dir/build.make CMakeFiles/cmTC_38bfb.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38bfb.dir/H5_SIZEOF_UINT_FAST16_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_38bfb.dir/H5_SIZEOF_UINT_FAST16_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST16_T.c
+Linking C executable cmTC_38bfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38bfb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_38bfb.dir/H5_SIZEOF_UINT_FAST16_T.c.o -o cmTC_38bfb 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ff2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ff2f.dir/build.make CMakeFiles/cmTC_3ff2f.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ff2f.dir/H5_SIZEOF_INT32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_3ff2f.dir/H5_SIZEOF_INT32_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT32_T.c
+Linking C executable cmTC_3ff2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ff2f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3ff2f.dir/H5_SIZEOF_INT32_T.c.o -o cmTC_3ff2f 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78b17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78b17.dir/build.make CMakeFiles/cmTC_78b17.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78b17.dir/H5_SIZEOF_UINT32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_78b17.dir/H5_SIZEOF_UINT32_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT32_T.c
+Linking C executable cmTC_78b17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b17.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_78b17.dir/H5_SIZEOF_UINT32_T.c.o -o cmTC_78b17 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_least32_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f8bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f8bb.dir/build.make CMakeFiles/cmTC_5f8bb.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f8bb.dir/H5_SIZEOF_INT_LEAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_5f8bb.dir/H5_SIZEOF_INT_LEAST32_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST32_T.c
+Linking C executable cmTC_5f8bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f8bb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5f8bb.dir/H5_SIZEOF_INT_LEAST32_T.c.o -o cmTC_5f8bb 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_least32_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fdc28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fdc28.dir/build.make CMakeFiles/cmTC_fdc28.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdc28.dir/H5_SIZEOF_UINT_LEAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_fdc28.dir/H5_SIZEOF_UINT_LEAST32_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST32_T.c
+Linking C executable cmTC_fdc28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdc28.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fdc28.dir/H5_SIZEOF_UINT_LEAST32_T.c.o -o cmTC_fdc28 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_fast32_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c3b64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3b64.dir/build.make CMakeFiles/cmTC_c3b64.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3b64.dir/H5_SIZEOF_INT_FAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_c3b64.dir/H5_SIZEOF_INT_FAST32_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST32_T.c
+Linking C executable cmTC_c3b64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3b64.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c3b64.dir/H5_SIZEOF_INT_FAST32_T.c.o -o cmTC_c3b64 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_fast32_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e66d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e66d.dir/build.make CMakeFiles/cmTC_5e66d.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e66d.dir/H5_SIZEOF_UINT_FAST32_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_5e66d.dir/H5_SIZEOF_UINT_FAST32_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST32_T.c
+Linking C executable cmTC_5e66d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e66d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5e66d.dir/H5_SIZEOF_UINT_FAST32_T.c.o -o cmTC_5e66d 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0f88/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0f88.dir/build.make CMakeFiles/cmTC_f0f88.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0f88.dir/H5_SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f0f88.dir/H5_SIZEOF_INT64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT64_T.c
+Linking C executable cmTC_f0f88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0f88.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f0f88.dir/H5_SIZEOF_INT64_T.c.o -o cmTC_f0f88 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbd5d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbd5d.dir/build.make CMakeFiles/cmTC_dbd5d.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbd5d.dir/H5_SIZEOF_UINT64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_dbd5d.dir/H5_SIZEOF_UINT64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT64_T.c
+Linking C executable cmTC_dbd5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbd5d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dbd5d.dir/H5_SIZEOF_UINT64_T.c.o -o cmTC_dbd5d 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_least64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f8ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f8ae.dir/build.make CMakeFiles/cmTC_3f8ae.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f8ae.dir/H5_SIZEOF_INT_LEAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_3f8ae.dir/H5_SIZEOF_INT_LEAST64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST64_T.c
+Linking C executable cmTC_3f8ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f8ae.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3f8ae.dir/H5_SIZEOF_INT_LEAST64_T.c.o -o cmTC_3f8ae 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_least64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ced09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ced09.dir/build.make CMakeFiles/cmTC_ced09.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ced09.dir/H5_SIZEOF_UINT_LEAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_ced09.dir/H5_SIZEOF_UINT_LEAST64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST64_T.c
+Linking C executable cmTC_ced09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ced09.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ced09.dir/H5_SIZEOF_UINT_LEAST64_T.c.o -o cmTC_ced09 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int_fast64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7c2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7c2f.dir/build.make CMakeFiles/cmTC_f7c2f.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7c2f.dir/H5_SIZEOF_INT_FAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f7c2f.dir/H5_SIZEOF_INT_FAST64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST64_T.c
+Linking C executable cmTC_f7c2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c2f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f7c2f.dir/H5_SIZEOF_INT_FAST64_T.c.o -o cmTC_f7c2f 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint_fast64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3de70/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3de70.dir/build.make CMakeFiles/cmTC_3de70.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3de70.dir/H5_SIZEOF_UINT_FAST64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_3de70.dir/H5_SIZEOF_UINT_FAST64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST64_T.c
+Linking C executable cmTC_3de70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3de70.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3de70.dir/H5_SIZEOF_UINT_FAST64_T.c.o -o cmTC_3de70 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b64a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b64a5.dir/build.make CMakeFiles/cmTC_b64a5.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b64a5.dir/H5_SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_b64a5.dir/H5_SIZEOF_SIZE_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_SIZE_T.c
+Linking C executable cmTC_b64a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b64a5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b64a5.dir/H5_SIZEOF_SIZE_T.c.o -o cmTC_b64a5 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56d42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56d42.dir/build.make CMakeFiles/cmTC_56d42.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56d42.dir/H5_SIZEOF_SSIZE_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_56d42.dir/H5_SIZEOF_SSIZE_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_SSIZE_T.c
+Linking C executable cmTC_56d42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d42.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_56d42.dir/H5_SIZEOF_SSIZE_T.c.o -o cmTC_56d42 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e483/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e483.dir/build.make CMakeFiles/cmTC_7e483.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e483.dir/H5_SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_7e483.dir/H5_SIZEOF_PTRDIFF_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_7e483
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e483.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7e483.dir/H5_SIZEOF_PTRDIFF_T.c.o -o cmTC_7e483 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4bbe1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4bbe1.dir/build.make CMakeFiles/cmTC_4bbe1.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bbe1.dir/H5_SIZEOF_OFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_4bbe1.dir/H5_SIZEOF_OFF_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF_T.c
+Linking C executable cmTC_4bbe1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bbe1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4bbe1.dir/H5_SIZEOF_OFF_T.c.o -o cmTC_4bbe1 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79110/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79110.dir/build.make CMakeFiles/cmTC_79110.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79110.dir/H5_SIZEOF_OFF64_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_79110.dir/H5_SIZEOF_OFF64_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c
+Linking C executable cmTC_79110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79110.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_79110.dir/H5_SIZEOF_OFF64_T.c.o -o cmTC_79110 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc371/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc371.dir/build.make CMakeFiles/cmTC_fc371.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc371.dir/H5_SIZEOF_TIME_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_fc371.dir/H5_SIZEOF_TIME_T.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_TIME_T.c
+Linking C executable cmTC_fc371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc371.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fc371.dir/H5_SIZEOF_TIME_T.c.o -o cmTC_fc371 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad033/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad033.dir/build.make CMakeFiles/cmTC_ad033.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad033.dir/H5_SIZEOF_BOOL.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_ad033.dir/H5_SIZEOF_BOOL.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/H5_SIZEOF_BOOL.c
+Linking C executable cmTC_ad033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad033.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ad033.dir/H5_SIZEOF_BOOL.c.o -o cmTC_ad033 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test H5_HAVE_TM_GMTOFF succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_774e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_774e2.dir/build.make CMakeFiles/cmTC_774e2.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_774e2.dir/src.c.o
+/usr/bin/cc -DH5_HAVE_TM_GMTOFF -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_774e2.dir/src.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_774e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_774e2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_774e2.dir/src.c.o -o cmTC_774e2 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e42cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e42cf.dir/build.make CMakeFiles/cmTC_e42cf.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e42cf.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_e42cf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e42cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e42cf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_e42cf.dir/CheckFunctionExists.c.o -o cmTC_e42cf 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test H5_HAVE_STAT_ST_BLOCKS succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04bf6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04bf6.dir/build.make CMakeFiles/cmTC_04bf6.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04bf6.dir/src.c.o
+/usr/bin/cc -DH5_HAVE_STAT_ST_BLOCKS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_04bf6.dir/src.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04bf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04bf6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_04bf6.dir/src.c.o -o cmTC_04bf6 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_blocks);
+  return 0;
+}
+
+Determining if the function ioctl exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7f91/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7f91.dir/build.make CMakeFiles/cmTC_b7f91.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7f91.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=ioctl -o CMakeFiles/cmTC_b7f91.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7f91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7f91.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ioctl CMakeFiles/cmTC_b7f91.dir/CheckFunctionExists.c.o -o cmTC_b7f91 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the TIOCGWINSZ exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_faf93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_faf93.dir/build.make CMakeFiles/cmTC_faf93.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faf93.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_faf93.dir/CheckSymbolExists.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_faf93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faf93.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_faf93.dir/CheckSymbolExists.c.o -o cmTC_faf93 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+File /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGWINSZ
+  return ((int*)(&TIOCGWINSZ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TIOCGETD exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_de11e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de11e.dir/build.make CMakeFiles/cmTC_de11e.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de11e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_de11e.dir/CheckSymbolExists.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_de11e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de11e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_de11e.dir/CheckSymbolExists.c.o -o cmTC_de11e 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+File /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGETD
+  return ((int*)(&TIOCGETD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function alarm exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6fd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6fd6.dir/build.make CMakeFiles/cmTC_d6fd6.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6fd6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=alarm -o CMakeFiles/cmTC_d6fd6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d6fd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6fd6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alarm CMakeFiles/cmTC_d6fd6.dir/CheckFunctionExists.c.o -o cmTC_d6fd6 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ac19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ac19.dir/build.make CMakeFiles/cmTC_1ac19.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ac19.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_1ac19.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ac19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ac19.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl CMakeFiles/cmTC_1ac19.dir/CheckFunctionExists.c.o -o cmTC_1ac19 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f729/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f729.dir/build.make CMakeFiles/cmTC_8f729.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f729.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=flock -o CMakeFiles/cmTC_8f729.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f729.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=flock CMakeFiles/cmTC_8f729.dir/CheckFunctionExists.c.o -o cmTC_8f729 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33c62/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33c62.dir/build.make CMakeFiles/cmTC_33c62.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33c62.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=fork -o CMakeFiles/cmTC_33c62.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘fork’; expected ‘int(void)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_33c62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c62.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fork CMakeFiles/cmTC_33c62.dir/CheckFunctionExists.c.o -o cmTC_33c62 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6360/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6360.dir/build.make CMakeFiles/cmTC_e6360.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6360.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=gethostname -o CMakeFiles/cmTC_e6360.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6360.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostname CMakeFiles/cmTC_e6360.dir/CheckFunctionExists.c.o -o cmTC_e6360 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9a93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9a93.dir/build.make CMakeFiles/cmTC_d9a93.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9a93.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=getrusage -o CMakeFiles/cmTC_d9a93.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d9a93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a93.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getrusage CMakeFiles/cmTC_d9a93.dir/CheckFunctionExists.c.o -o cmTC_d9a93 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbba9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbba9.dir/build.make CMakeFiles/cmTC_dbba9.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbba9.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=pread -o CMakeFiles/cmTC_dbba9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dbba9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbba9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread CMakeFiles/cmTC_dbba9.dir/CheckFunctionExists.c.o -o cmTC_dbba9 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef7f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef7f6.dir/build.make CMakeFiles/cmTC_ef7f6.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef7f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=pwrite -o CMakeFiles/cmTC_ef7f6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef7f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef7f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite CMakeFiles/cmTC_ef7f6.dir/CheckFunctionExists.c.o -o cmTC_ef7f6 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee7a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee7a2.dir/build.make CMakeFiles/cmTC_ee7a2.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee7a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=rand_r -o CMakeFiles/cmTC_ee7a2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee7a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee7a2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=rand_r CMakeFiles/cmTC_ee7a2.dir/CheckFunctionExists.c.o -o cmTC_ee7a2 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ce249/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce249.dir/build.make CMakeFiles/cmTC_ce249.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce249.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=random -o CMakeFiles/cmTC_ce249.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce249.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=random CMakeFiles/cmTC_ce249.dir/CheckFunctionExists.c.o -o cmTC_ce249 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcasestr exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1192f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1192f.dir/build.make CMakeFiles/cmTC_1192f.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1192f.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=strcasestr -o CMakeFiles/cmTC_1192f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1192f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1192f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasestr CMakeFiles/cmTC_1192f.dir/CheckFunctionExists.c.o -o cmTC_1192f 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41e3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41e3c.dir/build.make CMakeFiles/cmTC_41e3c.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41e3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_41e3c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_41e3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strdup CMakeFiles/cmTC_41e3c.dir/CheckFunctionExists.c.o -o cmTC_41e3c 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function symlink exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aca9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aca9b.dir/build.make CMakeFiles/cmTC_aca9b.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aca9b.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=symlink -o CMakeFiles/cmTC_aca9b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aca9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca9b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=symlink CMakeFiles/cmTC_aca9b.dir/CheckFunctionExists.c.o -o cmTC_aca9b 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function tmpfile exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8f06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8f06.dir/build.make CMakeFiles/cmTC_d8f06.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8f06.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=tmpfile -o CMakeFiles/cmTC_d8f06.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8f06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8f06.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tmpfile CMakeFiles/cmTC_d8f06.dir/CheckFunctionExists.c.o -o cmTC_d8f06 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f57c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f57c3.dir/build.make CMakeFiles/cmTC_f57c3.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f57c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=asprintf -o CMakeFiles/cmTC_f57c3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f57c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f57c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=asprintf CMakeFiles/cmTC_f57c3.dir/CheckFunctionExists.c.o -o cmTC_f57c3 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c382/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c382.dir/build.make CMakeFiles/cmTC_8c382.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c382.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=vasprintf -o CMakeFiles/cmTC_8c382.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c382
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c382.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vasprintf CMakeFiles/cmTC_8c382.dir/CheckFunctionExists.c.o -o cmTC_8c382 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ba962/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ba962.dir/build.make CMakeFiles/cmTC_ba962.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba962.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=waitpid -o CMakeFiles/cmTC_ba962.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba962.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=waitpid CMakeFiles/cmTC_ba962.dir/CheckFunctionExists.c.o -o cmTC_ba962 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the sigsetjmp exist passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37599/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37599.dir/build.make CMakeFiles/cmTC_37599.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37599.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_37599.dir/CheckSymbolExists.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_37599
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37599.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_37599.dir/CheckSymbolExists.c.o -o cmTC_37599 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+File /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigsetjmp
+  return ((int*)(&sigsetjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef82f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef82f.dir/build.make CMakeFiles/cmTC_ef82f.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef82f.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_ef82f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef82f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef82f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_ef82f.dir/CheckFunctionExists.c.o -o cmTC_ef82f 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e78a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e78a.dir/build.make CMakeFiles/cmTC_5e78a.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e78a.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_5e78a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e78a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e78a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_5e78a.dir/CheckFunctionExists.c.o -o cmTC_5e78a  -lrt 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of CLOCK_MONOTONIC_COARSE passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5835/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5835.dir/build.make CMakeFiles/cmTC_f5835.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5835.dir/CLOCK_MONOTONIC_COARSE_SIZE.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_f5835.dir/CLOCK_MONOTONIC_COARSE_SIZE.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/CLOCK_MONOTONIC_COARSE_SIZE.c
+Linking C executable cmTC_f5835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5835.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f5835.dir/CLOCK_MONOTONIC_COARSE_SIZE.c.o -o cmTC_f5835 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of __float128 passed with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3940/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3940.dir/build.make CMakeFiles/cmTC_b3940.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3940.dir/_SIZEOF___FLOAT128.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_b3940.dir/_SIZEOF___FLOAT128.c.o -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CheckTypeSize/_SIZEOF___FLOAT128.c
+Linking C executable cmTC_b3940
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3940.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b3940.dir/_SIZEOF___FLOAT128.c.o -o cmTC_b3940 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+21;33;
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/gfortran -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+ /usr/lib/gcc/x86_64-linux-gnu/11/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccilS0uz.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mtune=generic -march=x86-64 -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/11/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/ccQFScTU.s
+GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+ as -v --64 -o /tmp/cc0b2Yw2.o /tmp/ccQFScTU.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAcAy4A.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. /tmp/cc0b2Yw2.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a.'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/3.22.1/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77b5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77b5e.dir/build.make CMakeFiles/cmTC_77b5e.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o
+/usr/bin/gfortran   -fPIE   -v -c /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-c' '-o' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77b5e.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/f951 /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/cclr0HuE.f90 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpdir CMakeFiles/cmTC_77b5e.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mtune=generic -march=x86-64 -version -fPIE -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/11/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/ccfDxQjI.s
+GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-c' '-o' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77b5e.dir/'
+ as -v --64 -o CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o /tmp/ccfDxQjI.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-c' '-o' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.'
+Linking Fortran executable cmTC_77b5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b5e.dir/link.txt --verbose=1
+/usr/bin/gfortran  -v CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o -o cmTC_77b5e 
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o -o cmTC_77b5e -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77b5e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77b5e-'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77b5e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77b5e.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Ds4wn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_77b5e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77b5e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77b5e.'
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/finclude]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/finclude] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/finclude]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/finclude;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77b5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77b5e.dir/build.make CMakeFiles/cmTC_77b5e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [/usr/bin/gfortran   -fPIE   -v -c /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-c' '-o' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77b5e.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/f951 /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/cclr0HuE.f90 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpdir CMakeFiles/cmTC_77b5e.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mtune=generic -march=x86-64 -version -fPIE -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/11/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/ccfDxQjI.s]
+  ignore line: [GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/finclude]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-c' '-o' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77b5e.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o /tmp/ccfDxQjI.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-c' '-o' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.']
+  ignore line: [Linking Fortran executable cmTC_77b5e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b5e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran  -v CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o -o cmTC_77b5e ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o -o cmTC_77b5e -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77b5e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77b5e-']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77b5e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_77b5e.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Ds4wn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_77b5e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0Ds4wn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_77b5e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_77b5e.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing Fortran SOURCE FILE Test H5_FORTRAN_HAVE_SIZEOF succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af419/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af419.dir/build.make CMakeFiles/cmTC_af419.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_af419.dir/src.f90.o
+/usr/bin/gfortran -DH5_FORTRAN_HAVE_SIZEOF -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_af419.dir/src.f90.o
+Linking Fortran executable cmTC_af419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af419.dir/link.txt --verbose=1
+/usr/bin/gfortran -O3 -DNDEBUG -O3 CMakeFiles/cmTC_af419.dir/src.f90.o -o cmTC_af419  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+       PROGRAM main
+       i = sizeof(x)
+       END PROGRAM
+  
+Performing Fortran SOURCE FILE Test H5_FORTRAN_HAVE_C_SIZEOF succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0996/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0996.dir/build.make CMakeFiles/cmTC_d0996.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_d0996.dir/src.f90.o
+/usr/bin/gfortran -DH5_FORTRAN_HAVE_C_SIZEOF -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_d0996.dir/src.f90.o
+Linking Fortran executable cmTC_d0996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0996.dir/link.txt --verbose=1
+/usr/bin/gfortran -O3 -DNDEBUG -O3 CMakeFiles/cmTC_d0996.dir/src.f90.o -o cmTC_d0996  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+       PROGRAM main
+         USE ISO_C_BINDING
+         INTEGER(C_INT) :: a
+         INTEGER(C_SIZE_T) :: result
+         result = c_sizeof(a)
+       END PROGRAM
+  
+Performing Fortran SOURCE FILE Test H5_FORTRAN_HAVE_STORAGE_SIZE succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3637c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3637c.dir/build.make CMakeFiles/cmTC_3637c.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_3637c.dir/src.f90.o
+/usr/bin/gfortran -DH5_FORTRAN_HAVE_STORAGE_SIZE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_3637c.dir/src.f90.o
+Linking Fortran executable cmTC_3637c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3637c.dir/link.txt --verbose=1
+/usr/bin/gfortran -O3 -DNDEBUG -O3 CMakeFiles/cmTC_3637c.dir/src.f90.o -o cmTC_3637c  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+       PROGRAM main
+         INTEGER :: a
+         INTEGER :: result
+         result = storage_size(a)
+       END PROGRAM
+  
+Performing Fortran SOURCE FILE Test H5_HAVE_ISO_FORTRAN_ENV succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0be0e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0be0e.dir/build.make CMakeFiles/cmTC_0be0e.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_0be0e.dir/src.f90.o
+/usr/bin/gfortran -DH5_HAVE_ISO_FORTRAN_ENV -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_0be0e.dir/src.f90.o
+Linking Fortran executable cmTC_0be0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be0e.dir/link.txt --verbose=1
+/usr/bin/gfortran -O3 -DNDEBUG -O3 CMakeFiles/cmTC_0be0e.dir/src.f90.o -o cmTC_0be0e  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+       PROGRAM main
+         USE, INTRINSIC :: ISO_FORTRAN_ENV
+       END PROGRAM
+  
+Performing Fortran SOURCE FILE Test H5_FORTRAN_DEFAULT_REAL_NOT_DOUBLE succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8445b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8445b.dir/build.make CMakeFiles/cmTC_8445b.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_8445b.dir/src.f90.o
+/usr/bin/gfortran -DH5_FORTRAN_DEFAULT_REAL_NOT_DOUBLE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_8445b.dir/src.f90.o
+Linking Fortran executable cmTC_8445b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8445b.dir/link.txt --verbose=1
+/usr/bin/gfortran -O3 -DNDEBUG -O3 CMakeFiles/cmTC_8445b.dir/src.f90.o -o cmTC_8445b  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+       MODULE type_mod
+         INTERFACE h5t
+           MODULE PROCEDURE h5t_real
+           MODULE PROCEDURE h5t_dble
+         END INTERFACE
+       CONTAINS
+         SUBROUTINE h5t_real(r)
+           REAL :: r
+         END SUBROUTINE h5t_real
+         SUBROUTINE h5t_dble(d)
+           DOUBLE PRECISION :: d
+         END SUBROUTINE h5t_dble
+       END MODULE type_mod
+       PROGRAM main
+         USE type_mod
+         REAL :: r
+         DOUBLE PRECISION :: d
+         CALL h5t(r)
+         CALL h5t(d)
+       END PROGRAM main
+  
+Performing Fortran SOURCE FILE Test H5_FORTRAN_HAVE_ISO_C_BINDING succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ea75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ea75.dir/build.make CMakeFiles/cmTC_1ea75.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_1ea75.dir/src.f90.o
+/usr/bin/gfortran -DH5_FORTRAN_HAVE_ISO_C_BINDING -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_1ea75.dir/src.f90.o
+Linking Fortran executable cmTC_1ea75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ea75.dir/link.txt --verbose=1
+/usr/bin/gfortran -O3 -DNDEBUG -O3 CMakeFiles/cmTC_1ea75.dir/src.f90.o -o cmTC_1ea75  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+       PROGRAM main
+            USE iso_c_binding
+            IMPLICIT NONE
+            TYPE(C_PTR) :: ptr
+            TYPE(C_FUNPTR) :: funptr
+            INTEGER(C_INT64_T) :: c_int64_type
+            CHARACTER(LEN=80, KIND=c_char), TARGET :: ichr
+            ptr = C_LOC(ichr(1:1))
+       END PROGRAM
+  
+Performing Fortran SOURCE FILE Test FORTRAN_HAVE_C_LONG_DOUBLE succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad0b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad0b2.dir/build.make CMakeFiles/cmTC_ad0b2.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_ad0b2.dir/src.f90.o
+/usr/bin/gfortran -DFORTRAN_HAVE_C_LONG_DOUBLE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fdiagnostics-urls=never -fno-diagnostics-color  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_ad0b2.dir/src.f90.o
+Linking Fortran executable cmTC_ad0b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad0b2.dir/link.txt --verbose=1
+/usr/bin/gfortran  -fdiagnostics-urls=never -fno-diagnostics-color  -O3 -DNDEBUG -O3 CMakeFiles/cmTC_ad0b2.dir/src.f90.o -o cmTC_ad0b2  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+PROGRAM PROG_FC_HAVE_C_LONG_DOUBLE
+  USE ISO_C_BINDING
+  REAL(KIND=C_LONG_DOUBLE) :: d
+END PROGRAM PROG_FC_HAVE_C_LONG_DOUBLE
+Performing Fortran SOURCE FILE Test FORTRAN_C_LONG_DOUBLE_IS_UNIQUE succeeded with the following output:
+Change Dir: /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb321/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb321.dir/build.make CMakeFiles/cmTC_fb321.dir/build
+gmake[1]: Entering directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_fb321.dir/src.f90.o
+/usr/bin/gfortran -DFORTRAN_C_LONG_DOUBLE_IS_UNIQUE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fdiagnostics-urls=never -fno-diagnostics-color  -O3 -DNDEBUG -O3 -fPIE -c /home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp/src.f90 -o CMakeFiles/cmTC_fb321.dir/src.f90.o
+Linking Fortran executable cmTC_fb321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb321.dir/link.txt --verbose=1
+/usr/bin/gfortran  -fdiagnostics-urls=never -fno-diagnostics-color  -O3 -DNDEBUG -O3 CMakeFiles/cmTC_fb321.dir/src.f90.o -o cmTC_fb321  -lm -ldl 
+gmake[1]: Leaving directory '/home/anri/Projects/hdf5/build/cmake-external/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+MODULE type_mod
+  USE ISO_C_BINDING
+  INTERFACE h5t
+     MODULE PROCEDURE h5t_c_double
+     MODULE PROCEDURE h5t_c_long_double
+  END INTERFACE
+CONTAINS
+  SUBROUTINE h5t_c_double(r)
+    REAL(KIND=C_DOUBLE) :: r
+  END SUBROUTINE h5t_c_double
+  SUBROUTINE h5t_c_long_double(d)
+    REAL(KIND=C_LONG_DOUBLE) :: d
+  END SUBROUTINE h5t_c_long_double
+END MODULE type_mod
+PROGRAM PROG_FC_C_LONG_DOUBLE_EQ_C_DOUBLE
+  USE ISO_C_BINDING
+  USE type_mod
+  REAL(KIND=C_DOUBLE)      :: r
+  REAL(KIND=C_LONG_DOUBLE) :: d
+  CALL h5t(r)
+  CALL h5t(d)
+END PROGRAM PROG_FC_C_LONG_DOUBLE_EQ_C_DOUBLE
+Determining if the Fortran REAL and INTEGER KINDs exists passed
+Determining if the Fortran INTEGER KIND SIZEOF exists passed
+Determining if the Fortran INTEGER KIND SIZEOF exists passed
+Determining if the Fortran INTEGER KIND SIZEOF exists passed
+Determining if the Fortran INTEGER KIND SIZEOF exists passed
+Determining if the Fortran INTEGER KIND SIZEOF exists passed
+Determining if the Fortran REAL KIND SIZEOF exists passed
+Determining if the Fortran REAL KIND SIZEOF exists passed
+Determining if the Fortran REAL KIND SIZEOF exists passed
+Determining if the Fortran REAL KIND SIZEOF exists passed
+Determining if the Fortran SIZEOF NATIVE KINDs exists passed

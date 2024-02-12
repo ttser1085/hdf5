@@ -1,0 +1,1 @@
+/usr/bin/gfortran  -fdiagnostics-urls=never -fno-diagnostics-color CMakeFiles/H5_test_buildiface.dir/H5_test_buildiface.F90.o -o ../../bin/H5_test_buildiface  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" 

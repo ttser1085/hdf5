@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/del_many_dense_attrs.dir/del_many_dense_attrs.c.o -o ../bin/del_many_dense_attrs  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../bin/libhdf5_test.so.1000.0.0 -lm ../bin/libhdf5.so.1000.0.0 -ldl 

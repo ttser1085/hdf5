@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/gen_udlinks.dir/gen_udlinks.c.o -o ../bin/gen_udlinks  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../bin/libhdf5_test.a ../bin/libhdf5.a -lm -ldl 

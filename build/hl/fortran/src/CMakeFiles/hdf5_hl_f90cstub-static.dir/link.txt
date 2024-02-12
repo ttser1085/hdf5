@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/libhdf5_hl_f90cstub.a CMakeFiles/hdf5_hl_f90cstub-static.dir/H5DSfc.c.o CMakeFiles/hdf5_hl_f90cstub-static.dir/H5LTfc.c.o CMakeFiles/hdf5_hl_f90cstub-static.dir/H5IMfc.c.o CMakeFiles/hdf5_hl_f90cstub-static.dir/H5IMcc.c.o CMakeFiles/hdf5_hl_f90cstub-static.dir/H5TBfc.c.o
+/usr/bin/ranlib ../../../bin/libhdf5_hl_f90cstub.a

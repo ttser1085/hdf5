@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 -shared -Wl,-soname,libdynlibvers.so.1000 -o ../../../bin/libdynlibvers.so.1000.0.0 CMakeFiles/dynlibvers.dir/dynlib_vrpk.c.o  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../../bin/libhdf5.so.1000.0.0 -ldl 

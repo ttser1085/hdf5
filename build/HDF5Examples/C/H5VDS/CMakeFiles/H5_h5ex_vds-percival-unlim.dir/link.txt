@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 CMakeFiles/H5_h5ex_vds-percival-unlim.dir/h5ex_vds-percival-unlim.c.o -o ../../../bin/H5_h5ex_vds-percival-unlim  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../../bin/libhdf5_fortran.so.1000.0.0 ../../../bin/libhdf5_f90cstub.so.1000.0.0 ../../../bin/libhdf5.so.1000.0.0 -ldl 

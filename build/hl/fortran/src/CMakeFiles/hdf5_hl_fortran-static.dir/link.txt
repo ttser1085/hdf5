@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/libhdf5_hl_fortran.a CMakeFiles/hdf5_hl_fortran-static.dir/H5DSff.F90.o CMakeFiles/hdf5_hl_fortran-static.dir/H5TBff.F90.o CMakeFiles/hdf5_hl_fortran-static.dir/H5LTff.F90.o CMakeFiles/hdf5_hl_fortran-static.dir/H5IMff.F90.o CMakeFiles/hdf5_hl_fortran-static.dir/H5DOff.F90.o CMakeFiles/hdf5_hl_fortran-static.dir/home/anri/Projects/hdf5/build/hl/fortran/static/H5LTff_gen.F90.o CMakeFiles/hdf5_hl_fortran-static.dir/home/anri/Projects/hdf5/build/hl/fortran/static/H5TBff_gen.F90.o
+/usr/bin/ranlib ../../../bin/libhdf5_hl_fortran.a

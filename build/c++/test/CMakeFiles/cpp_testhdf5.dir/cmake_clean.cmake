@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../bin/cpp_testhdf5"
+  "../../bin/cpp_testhdf5.pdb"
+  "CMakeFiles/cpp_testhdf5.dir/dsets.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/dsets.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/h5cpputil.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/h5cpputil.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tarray.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tarray.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tattr.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tattr.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tcompound.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tcompound.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tdspl.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tdspl.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/testhdf5.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/testhdf5.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tfile.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tfile.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tfilter.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tfilter.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/th5s.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/th5s.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/titerate.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/titerate.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tlinks.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tlinks.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tobject.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tobject.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/trefer.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/trefer.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/ttypes.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/ttypes.cpp.o.d"
+  "CMakeFiles/cpp_testhdf5.dir/tvlstr.cpp.o"
+  "CMakeFiles/cpp_testhdf5.dir/tvlstr.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cpp_testhdf5.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

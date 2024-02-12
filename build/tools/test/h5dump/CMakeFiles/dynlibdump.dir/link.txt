@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 -shared -Wl,-soname,libdynlibdump.so.1000 -o ../../../bin/libdynlibdump.so.1000.0.0 CMakeFiles/dynlibdump.dir/dynlib_dump.c.o  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../../../bin/libhdf5.so.1000.0.0 -ldl 

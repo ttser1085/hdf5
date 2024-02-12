@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -std=c99  -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0 -shared -Wl,-soname,libnull_vol_connector.so.1000 -o ../bin/libnull_vol_connector.so.1000.0.0 CMakeFiles/null_vol_connector.dir/null_vol_connector.c.o  -Wl,-rpath,"\$ORIGIN/../lib:\$ORIGIN/" ../bin/libhdf5_test.so.1000.0.0 -lm ../bin/libhdf5.so.1000.0.0 -ldl 
